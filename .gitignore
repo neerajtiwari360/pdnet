@@ -162,8 +162,6 @@ cython_debug/
 #.idea/
 data/raw_data/*
 include/desktop.ini
-data/desktop.ini
-desktop.ini
 model/pretrained_model/PIDNet_S_Cityscapes_test.pt
 model/onnx_model/model.onnx
 model.onnx

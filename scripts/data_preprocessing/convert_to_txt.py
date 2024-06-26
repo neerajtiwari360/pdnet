@@ -31,14 +31,14 @@ def save_to_txt_file(data, height, width, channels, output_file):
         f.write("image_data = [")
         
         for i, value in enumerate(data):
-            if i % 12 == 0:
+            if i % 9 == 0:
                 f.write("\n    ")
             f.write(f"{value}, ")
         
         f.write("\n]\n")
 
 def main():
-    image_path = r'G:\My Drive\PIDNet\github\pdnet\data\raw_data\gtFine_trainvaltest\gtFine\train\ulm\ulm_000000_000019_gtFine_color.png'  # Change this to the path of your image
+    image_path = r'G:\My Drive\PIDNet\github\pdnet\scripts\pidnet\samples\frankfurt_000000_002196_leftImg8bit.png'  # Change this to the path of your image
     output_file = r'G:\My Drive\PIDNet\github\pdnet\data\processed_data\image_data.txt'
     
     interleaved_data, height, width, channels = read_and_interleave_image(image_path)

@@ -161,3 +161,12 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 data/raw_data/*
+include/desktop.ini
+data/desktop.ini
+desktop.ini
+model/pretrained_model/PIDNet_S_Cityscapes_test.pt
+model/onnx_model/model.onnx
+model.onnx
+mnist.simplified.onnx
+model/onnx_model/model.txt
+data/processed_data/image_data.txt

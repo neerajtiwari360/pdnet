@@ -18,3 +18,7 @@ Convert an ONNX model (`mnist.simplified.onnx`) to C code:
 ```bash
 docker run -it -v ${PWD}:/local_directory onnx2c-converter:latest onnx2c mnist.simplified.onnx > test.c
 ```
+
+## Reference
+- [PIDNet](https://github.com/XuJiacong/PIDNet/tree/main)
+- [ONNX2C](https://github.com/kraiskil/onnx2c)
